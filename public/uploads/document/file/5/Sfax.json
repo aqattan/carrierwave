@@ -1,0 +1,67 @@
+{
+  "appId": "81d1d40d-b0ff-4753-bb8f-a72b27747bf7",
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "displayName": "Sfax",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": "http://localhost:3000/azures",
+  "identifierUris": [
+    "https://alkattanali1gmail.onmicrosoft.com/9c185c1d-6c7f-4430-9225-2304fbc2d0e8"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access Sfax on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access Sfax",
+      "id": "43dcbd5a-6276-498a-9f79-7649dbcdd11a",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access Sfax on your behalf.",
+      "userConsentDisplayName": "Access Sfax",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequiredPostResponse": false,
+  "objectId": "2b032aea-2862-4e12-8815-dcd55fc00038",
+  "passwordCredentials": [
+    {
+      "customKeyIdentifier": "bQB5AGEAegB1AHIAZQB0AGUAcwB0AA==",
+      "endDate": "2018-04-28T14:41:37.544Z",
+      "keyId": "bbe4d068-c3d9-4407-8d70-113b0748e8be",
+      "startDate": "2017-04-28T14:42:57.5316283Z",
+      "value": null
+    }
+  ],
+  "publicClient": false,
+  "supportsConvergence": false,
+  "replyUrls": [
+    "http://localhost:3000/auth/saml/callback",
+    "https://www.getpostman.com/oauth2/callback"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "87bc3115-88e7-488e-add6-fc56eb0de64e",
+      "resourceAccess": [
+        {
+          "id": "fbef73ca-612f-425d-901b-64a00503787e",
+          "type": "Scope"
+        }
+      ]
+    },
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null
+}
